@@ -1,0 +1,29 @@
+.nav {
+    height: 64px;
+    background-color: #e3e3e3;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style: none;
+    font-size: 1.1em;
+    display: inline-flex;
+    padding-right: 15px;
+    color: black;
+    text-emphasis: none;
+    text-decoration: none;
+
+}
+
+li:hover {
+    transition: ease-in-out;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
