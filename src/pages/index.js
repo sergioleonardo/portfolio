@@ -9,7 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section className="home" style={{
-          height: '100vh'
+          height: '100vh',
+          zIndex: '1'
         }}>
 
     </section>
