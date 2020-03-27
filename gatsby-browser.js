@@ -5,3 +5,10 @@
  */
 
 // You can delete this file if you're not using it
+
+require("src/components/layout.css")
+require("src/components/navbar.css")
+require("src/components/project.css")
+require("src/pages/index.css")
+require("src/pages/portfolio.css")
+

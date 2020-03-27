@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "./index.css"
+// import "./index.css"
 import Hero from "../images/hero.jpg"
 import github from "../icons/Github.svg"
 import linkedin from "../icons/Linkedin.svg"
