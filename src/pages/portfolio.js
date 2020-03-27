@@ -14,7 +14,6 @@ const Portfolio = () => (
         <Project/>
         <Project/>
         <Project/>
-
       </div>
     </section>
   </Layout>

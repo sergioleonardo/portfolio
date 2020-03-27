@@ -86,8 +86,59 @@ section {
     }
 }
 
+@media only screen and (max-width: 750px) {
+    section {
+        display: block;
+    }
+    
+    .section-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hero {
+        max-width: 340px;
+        max-height: 340px;
+        padding: 0px;
+        margin-top: 80px;
+        align-self: center;
+    }
+    
+    .section-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
+    .home-info {
+        padding: 0px;
+        display: block;
+        justify-content: center;
+    }
 
-
-
+    .home-info h1 {
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    .home-info p {
+        padding: 0%;
+        margin: 0%;
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .contact {
+        margin: 0%;
+        padding: 10px 0px 0px 0px;
+        display: inline-flex;
+        justify-self: center;
+    }
+}
 /* ------------About-Page------------ */
