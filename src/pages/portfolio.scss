@@ -1,10 +1,25 @@
-section {
+.Portfolio {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        padding-top: 90px;
+        color: black;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 0px;
+        font-weight: 400;
+        font-size: 50px;
+        margin: 0px;
+    }
 }
 
-section h1 {
-    padding-top: 100px;
-    color: black;
+
+.projects-container {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
 }

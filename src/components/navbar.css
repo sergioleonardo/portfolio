@@ -1,59 +1,73 @@
 .nav {
-    height: 64px;
-    background-color: #d3d3d3;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    z-index: 1;
-    color: black;
-    overflow: hidden;
-    width: 100%;
-    position: fixed;
+  height: 64px;
+  background-color: #d3d3d3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  margin: 0px;
+  z-index: 1;
+  color: black;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
 }
 
 ul {
-    float: right;
+  float: right;
 }
 
 li {
-    font-size: 1.1em;
-    display: inline-flex;
-    padding-right: 15px;
-    color: black;
-    transition: transform 0.2s ease-in;
+  font-size: 1.1em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 15px;
+  color: black;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 
 li:hover {
-    transition: ease-in-out;
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 li a {
-    list-style-type: none;
-    text-emphasis: none;
-    text-decoration: none;
+  list-style-type: none;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a:active {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .logo {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    padding-left: 15px;
-    align-self: center;
-    transition: transform 0.2s ease-in;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  padding-left: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 
 .logo:hover {
-    transform: scale(1.18);
+  -webkit-transform: scale(1.18);
+          transform: scale(1.18);
 }
-
+/*# sourceMappingURL=navbar.css.map */
