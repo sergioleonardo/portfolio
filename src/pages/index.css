@@ -70,17 +70,17 @@ section {
     text-decoration: none;
     color: black;
     transition: opacity 0.2s ease-in;
+
 }
 
-.contact-icon:hover p{
+/* .contact-icon:hover p{
     opacity: 100%;
     cursor: pointer;
     list-style-type: none;
     text-emphasis: none;
     text-decoration: none;
     color: black;
-
-}
+} */
 
 
 
