@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 import "./index.css"
 import Hero from "../images/hero.jpg"
-import github from "../icons/github.svg"
+import github from "../icons/Github.svg"
 import linkedin from "../icons/Linkedin.svg"
 import mail from "../icons/Mail.svg"
 import resume from "../icons/resume.svg"
