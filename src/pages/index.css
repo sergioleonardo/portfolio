@@ -1,87 +1,105 @@
 /* ------------About-Page------------ */
-
 section {
-    height: 100vh;
-    display: flex;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-left {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .hero {
-    max-width: 340px;
-    max-height: 340px;
-    padding-right: 20px;
+  max-width: 340px;
+  max-height: 340px;
+  padding-right: 20px;
 }
 
 .section-right {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .home-info {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .home-info h1 {
-    text-align: left;
-    padding: 0%;
-    margin: 0%;
-    font-weight: 200;
-    font-size: 60px;
-    line-height: 70px;
+  text-align: left;
+  padding: 0%;
+  margin: 0%;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 70px;
 }
 
 .home-info p {
-    padding: 0%;
-    margin: 0%;
-    font-weight: 200;
-    font-size: 25px;
+  padding: 0%;
+  margin: 0%;
+  font-weight: 200;
+  font-size: 25px;
 }
 
 .contact {
-    margin: 0%;
-    padding: 10px 0px 0px 0px;
-    display: inline;
-    float: left;
+  margin: 0%;
+  padding: 10px 0px 0px 0px;
+  display: inline;
+  float: left;
 }
 
 .icon {
-    height: 46px;
-    max-width: 46px;
-    display: flex;
-    cursor: pointer;
-    justify-content: center;
+  height: 46px;
+  max-width: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.contact-icon p{
-    text-align: center;
-    font-size: 10px;
-    opacity: 0%;
-    cursor: none;
-    list-style-type: none;
-    text-emphasis: none;
-    text-decoration: none;
-    color: black;
-    transition: opacity 0.2s ease-in;
-
+.contact-icon p {
+  text-align: center;
+  font-size: 10px;
+  opacity: 0%;
+  cursor: none;
+  list-style-type: none;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
-/* .contact-icon:hover p{
-    opacity: 100%;
-    cursor: pointer;
-    list-style-type: none;
-    text-emphasis: none;
-    text-decoration: none;
-    color: black;
-} */
-
-
+.contact-icon:hover p {
+  opacity: 100%;
+  cursor: pointer;
+  list-style-type: none;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+  color: black;
+}
 
 /* ------------About-Page------------ */
+/*# sourceMappingURL=index.css.map */

@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e4e4e4;
+  background-color: #d3d3d3;
 }
 
 @media only screen and (max-width: 480px) {

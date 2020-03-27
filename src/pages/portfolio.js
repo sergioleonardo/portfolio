@@ -1,13 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./portfolio.css"
 
 const Portfolio = () => (
   <Layout>
-    <SEO title="Portfolio" />
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Portfolio"/>
+    <section>
+      <h1>Portfolio</h1>
+      
+    </section>
   </Layout>
 )
 
