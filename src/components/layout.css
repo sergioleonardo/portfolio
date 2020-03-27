@@ -1,15 +1,15 @@
 html {
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  /* background-color:red; */
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e4e4e4;
 }
 
 @media only screen and (max-width: 480px) {
