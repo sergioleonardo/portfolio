@@ -64,18 +64,20 @@ section {
     text-align: center;
     font-size: 10px;
     opacity: 0%;
+    visibility: hidden;
     cursor: none;
     list-style-type: none;
     text-emphasis: none;
     text-decoration: none;
     color: black;
-    transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
 
 }
 
 .contact-icon:hover {
     p{
         opacity: 100%;
+        visibility: visible;
         cursor: pointer;
         list-style-type: none;
         text-emphasis: none;
