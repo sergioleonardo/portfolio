@@ -19,7 +19,7 @@ const IndexPage = () => (
       <div className="section-right">
         <div className="home-info">
           <h1>Sergio <br/> Garcia Perez</h1>
-          <p>Software Developer</p>
+          <p>Software Developer &<br/>Technical PM </p>
             <ul className="contact">
               <li>
                 <a href="https://github.com/sergioleonardo" className="contact-icon" rel="opener">

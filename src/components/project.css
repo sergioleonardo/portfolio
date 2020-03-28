@@ -8,7 +8,9 @@
   border-radius: 5px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
+  -webkit-box-shadow: 3px 5px 5px #888888;
+          box-shadow: 3px 5px 5px #888888;
 }
 
 .project .project-img {

@@ -1,0 +1,16 @@
+.blog-post {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 80px;
+  display: block;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+@media only screen and (max-width: 750px) {
+  .blog-post {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+/*# sourceMappingURL=blog-post.css.map */
