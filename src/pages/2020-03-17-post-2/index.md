@@ -1,5 +1,5 @@
 ---
-path: “/tabulate”
+path: “tabulate”
 date: “2020-03-20”
 title: “Tabulate - Lessons From My First Chrome Extension”
 author: “Sergio Garcia”
