@@ -96,11 +96,12 @@ section {
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-top: 40px;
     }
     
     .hero {
-        max-width: 340px;
-        max-height: 340px;
+        max-width: 300px;
+        max-height: 300px;
         padding: 0px;
         margin-top: 80px;
         align-self: center;
@@ -140,6 +141,7 @@ section {
         padding: 10px 0px 0px 0px;
         display: inline-flex;
         justify-self: center;
+        margin-left: 26px;
     }
 }
 /* ------------About-Page------------ */

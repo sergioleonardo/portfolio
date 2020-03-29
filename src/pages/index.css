@@ -116,10 +116,11 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 40px;
   }
   .hero {
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 300px;
+    max-height: 300px;
     padding: 0px;
     margin-top: 80px;
     -ms-flex-item-align: center;
@@ -164,6 +165,7 @@ section {
     display: -ms-inline-flexbox;
     display: inline-flex;
     justify-self: center;
+    margin-left: 26px;
   }
 }
 

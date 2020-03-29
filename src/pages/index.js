@@ -49,14 +49,14 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section>
+    {/* <section>
       <div className="about">
         <h1>About</h1>
       </div>
       <div className="Experience">
       <h1>Experience</h1>
       </div>
-    </section>
+    </section> */}
   </Layout>
 )
 

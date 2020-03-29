@@ -32,15 +32,17 @@
     }
 
     a {
-        margin: 5px 0px 0px 20px;
+        margin: 10px 0px 0px 20px;
         text-decoration: none;
         color: blue;
         font-weight: 500;
-        transition: transform ease-in;
     }
 
-    a:hover {
-        transform: scale(1.1);
-
+    .read-more {
+        margin: 10px 0px 0px 0px;
+        top: 10px;
+        text-decoration: underline;
+        color: black;
+        font-weight: 500;        
     }
 }

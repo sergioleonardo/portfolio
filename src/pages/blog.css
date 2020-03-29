@@ -6,4 +6,13 @@
   padding-right: 5%;
   padding-left: 5%;
 }
+
+.blog-page h1 {
+  color: black;
+  text-align: center;
+  padding-bottom: 0px;
+  font-weight: 200;
+  font-size: 50px;
+  margin: 0px;
+}
 /*# sourceMappingURL=blog.css.map */

@@ -34,18 +34,17 @@
 }
 
 .project a {
-  margin: 5px 0px 0px 20px;
+  margin: 10px 0px 0px 20px;
   text-decoration: none;
   color: blue;
   font-weight: 500;
-  -webkit-transition: -webkit-transform ease-in;
-  transition: -webkit-transform ease-in;
-  transition: transform ease-in;
-  transition: transform ease-in, -webkit-transform ease-in;
 }
 
-.project a:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.project .read-more {
+  margin: 10px 0px 0px 0px;
+  top: 10px;
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
 }
 /*# sourceMappingURL=project.css.map */

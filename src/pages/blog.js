@@ -6,7 +6,7 @@ import "./blog.css"
 const BlogPage = ({data}) => (
   <Layout>
     <div className="blog-page">
-            <h1>Blog Posts</h1>
+            <h1>Blog</h1>
             {data.allMarkdownRemark.edges.map(post => (
                 <div key={post.node.id}>
                     <h3>{post.node.frontmatter.title}</h3>
