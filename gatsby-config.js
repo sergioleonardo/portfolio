@@ -18,11 +18,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Sergio Leonardo | Portfolio`,
+        short_name: `Sergio Leonardo`,
         start_url: `/`,
-        background_color: `#e3e3e3`,
-        theme_color: `#663399`,
+        background_color: `#d3d3d3`,
+        theme_color: `#d3d3d3"`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
@@ -36,7 +36,13 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
-    'gatsby-plugin-remove-serviceworker'
+    'gatsby-plugin-remove-serviceworker',
+    {
+      resolve: "gatsby-plugin-transition-link",
+          options: {
+              layout: require.resolve(`./src/components/layout.js`)
+            }
+    }
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

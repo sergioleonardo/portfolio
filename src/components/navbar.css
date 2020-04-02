@@ -24,6 +24,7 @@ li {
   display: inline-flex;
   padding-right: 15px;
   color: black;
+  opacity: 1;
   -webkit-transition: -webkit-transform 0.2s ease-in;
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
