@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { Link, graphql } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { graphql } from 'gatsby'
 import "./blog-post.css"
 
 export default function Template({data}) {
@@ -9,7 +10,7 @@ export default function Template({data}) {
     return (
         <Layout>
             <div className="blog-post">
-                <Link to="/blog">Go Back</Link>
+            <AniLink swipe to="/blog">Go back</AniLink>
                 <hr />
                 <h1>{post.frontmatter.title}</h1>
                 <h4>Posted By {post.frontmatter.author} on {post.frontmatter.date}</h4>

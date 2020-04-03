@@ -12,7 +12,7 @@ import resume from "../icons/resume.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"/>
-    <section>
+    <div className="section">
       <div className="section-left">
         <img src={Hero} className="hero" alt="hero"/>
       </div>
@@ -48,7 +48,7 @@ const IndexPage = () => (
             </ul>
         </div>
       </div>
-    </section>
+    </div>
     {/* <section>
       <div className="about">
         <h1>About</h1>
