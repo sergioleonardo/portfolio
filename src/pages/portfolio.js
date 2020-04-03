@@ -6,7 +6,7 @@ import "./portfolio.css"
 
 //Project Imports
 // { name, image, type, description, gitLink, demo }
-import placeholder from "../images/BlankProjects.jpg"
+// import placeholder from "../images/BlankProjects.jpg"
 
 
 const Portfolio = () => (

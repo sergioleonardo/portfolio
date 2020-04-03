@@ -18,11 +18,6 @@ I learned a lot during this project. I was tasked with designing the UI/UX of th
         display: block;
         margin-left: auto;
         margin-right: auto;
-        -webkit-transform:rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
     "/>
 
 Due to the fact that we were working remotely, we decided to take an Agile approach to improve productivity. One hurdle we ran into, was about our devices. He was on Windows 10, and I was on MacOS. This meant that our default scroll bars were different, and some text rendering was slightly different was well. So I would make changes to the UI and on my end, it looked fine, but on his end it looked slightly different. 
@@ -32,3 +27,17 @@ Luckily I have parallels running on my laptop, which means that I could test the
 This whole project took one week to finish and to push to the chrome store. Even after we released it, I learned that the bugs don’t stop coming. Users of the extension have been messaging us about future implementations to add going forward. This experience taught me that simple widgets are still fun to build and use.
 
 Working on this project was exciting and fun in the short time span that we had. One thing I would do differently, is implement a bug tracking system in our workflow. There were times that we had people mentioning bugs to us, and we would kind of lose track of the list of things to fix. We had a shared google doc, but we could have worked on more organization when pushing following updates.
+
+<!-- <img src="https://sergioportfolio.blob.core.windows.net/portfolioimages/Tabulate Error.jpeg" 
+    style="
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    "/> -->

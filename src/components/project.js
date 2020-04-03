@@ -9,7 +9,7 @@ let projectPath = "/"+ name.toLowerCase()
 return (
     <>
       <div className="project">
-        <img src={image} class="project-img" alt="Logo or Demo of current project"></img>
+        <img src={image} className="project-img" alt="Logo or Demo of current project"></img>
         <div>
           <h3>{name}</h3>
           <h5>{type}</h5>

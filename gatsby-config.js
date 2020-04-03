@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Sergio Leonardo`,
-    description: `Passionate Software Developer based in Seattle, WA. `,
+    description: `Passionate Software Developer based in Seattle, WA.`,
     author: `Sergio Leonardo`,
   },
   plugins: [
@@ -39,11 +39,11 @@ module.exports = {
     'gatsby-plugin-remove-serviceworker',
     {
       resolve: "gatsby-plugin-transition-link",
-          options: {
-              layout: require.resolve(`./src/components/layout.js`)
-            }
+      options: {
+        injectPageProps: true,
+        layout: require.resolve(`./src/components/layout.js`)
+      }
     }
-
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
