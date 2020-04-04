@@ -142,6 +142,20 @@
         display: inline-flex;
         justify-self: center;
         margin-left: 26px;
+
+    }
+
+    .contact-icon:hover {
+        p{
+            opacity: 0%;
+            visibility: hidden;
+            cursor: none;
+            list-style-type: none;
+            text-emphasis: none;
+            text-decoration: none;
+            color: black;
+            display: none;
+        }
     }
 }
 /* ------------About-Page------------ */

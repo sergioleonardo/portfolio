@@ -28,16 +28,10 @@ This whole project took one week to finish and to push to the chrome store. Even
 
 Working on this project was exciting and fun in the short time span that we had. One thing I would do differently, is implement a bug tracking system in our workflow. There were times that we had people mentioning bugs to us, and we would kind of lose track of the list of things to fix. We had a shared google doc, but we could have worked on more organization when pushing following updates.
 
-<!-- <img src="https://sergioportfolio.blob.core.windows.net/portfolioimages/Tabulate Error.jpeg" 
+<img src="https://sergioportfolio.blob.core.windows.net/portfolioimages/tabulatedemo.gif" 
     style="
         width: 300px;
-        height: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        -webkit-transform:rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-    "/> -->
+    "/>
