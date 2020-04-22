@@ -9,8 +9,9 @@
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 35px;
-  -webkit-box-shadow: 3px 5px 5px #888888;
-          box-shadow: 3px 5px 5px #888888;
+  -webkit-box-shadow: 3px 5px 5px #000000;
+          box-shadow: 3px 5px 5px #000000;
+  color: black;
 }
 
 .project .project-img {

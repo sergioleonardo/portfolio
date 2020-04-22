@@ -11,7 +11,8 @@ body {
           box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d3d3d3;
+  background-color: #0D213C;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 480px) {

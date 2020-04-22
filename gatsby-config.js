@@ -21,8 +21,8 @@ module.exports = {
         name: `Sergio Leonardo | Portfolio`,
         short_name: `Sergio Leonardo`,
         start_url: `/`,
-        background_color: `#d3d3d3`,
-        theme_color: `#d3d3d3"`,
+        background_color: `#0D213C`,
+        theme_color: `#0D213C`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },

@@ -1,13 +1,13 @@
 .nav {
   height: 64px;
-  background-color: #d3d3d3;
+  background-color: #0D213C;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0px;
   margin: 0px;
   z-index: 1;
-  color: black;
+  color: white;
   overflow: hidden;
   width: 100%;
   position: fixed;
@@ -23,17 +23,12 @@ li {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-right: 15px;
-  color: black;
+  color: white;
   opacity: 1;
   -webkit-transition: -webkit-transform 0.2s ease-in;
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
-}
-
-li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 li a {
@@ -44,12 +39,12 @@ li a {
 }
 
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:active {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -65,10 +60,5 @@ a:active {
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
-}
-
-.logo:hover {
-  -webkit-transform: scale(1.18);
-          transform: scale(1.18);
 }
 /*# sourceMappingURL=navbar.css.map */

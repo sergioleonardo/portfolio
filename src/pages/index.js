@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home"/>
     <div className="section">
       <div className="section-left">
-        <img src={Hero} className="hero" alt="hero"/>
+        <img src={Hero} className="hero ll-image" alt="hero" data-image-full={Hero}/>
       </div>
       <div className="section-right">
         <div className="home-info">
@@ -24,25 +24,21 @@ const IndexPage = () => (
               <li>
                 <a href="https://github.com/sergioleonardo" className="contact-icon" rel="opener">
                   <img className="icon" src={github} alt="Github Icon"></img>
-                  <p>Github</p>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/sergio-garcia-perez-02b85b103/" className="contact-icon" rel="opener">
                   <img className="icon" src={linkedin} alt="LinkedIn Icon"></img>
-                  <p>Linkedin</p>
                 </a>
               </li>
               <li>
                 <a href="../resume/Sergio_Garcia_Resume.docx" className="contact-icon" download>
                   <img className="icon" src={resume} alt="Resume Icon"></img>
-                  <p>Resume</p>
                 </a>
               </li>
               <li>
                 <a href="mailto:sergiogarciajr@icloud.com" className="contact-icon" rel="opener">
                   <img className="icon" src={mail} alt="Mail Icon"></img>
-                  <p>Mail</p>
                 </a>
               </li>
             </ul>

@@ -16,7 +16,7 @@
     max-width: 340px;
     max-height: 340px;
     // padding-right: 20px;
-    box-shadow: 3px 5px 5px #888888;
+    box-shadow: 3px 5px 5px #000;
 }
 
 .section-right {
@@ -70,9 +70,8 @@
     list-style-type: none;
     text-emphasis: none;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
-
 }
 
 .contact-icon:hover {
@@ -117,6 +116,7 @@
         padding: 0px;
         display: block;
         justify-content: center;
+        padding-bottom: 30px;
     }
 
     .home-info h1 {

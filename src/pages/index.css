@@ -22,8 +22,8 @@
 .hero {
   max-width: 340px;
   max-height: 340px;
-  -webkit-box-shadow: 3px 5px 5px #888888;
-          box-shadow: 3px 5px 5px #888888;
+  -webkit-box-shadow: 3px 5px 5px #000;
+          box-shadow: 3px 5px 5px #000;
 }
 
 .section-right {
@@ -88,7 +88,7 @@
   -webkit-text-emphasis: none;
           text-emphasis: none;
   text-decoration: none;
-  color: black;
+  color: white;
   -webkit-transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
   transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
 }
@@ -142,6 +142,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 30px;
   }
   .home-info h1 {
     text-align: center;

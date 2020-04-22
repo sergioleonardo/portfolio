@@ -18,7 +18,9 @@ I learned a lot during this project. I was tasked with designing the UI/UX of th
         display: block;
         margin-left: auto;
         margin-right: auto;
-    "/>
+    "
+    class="ll-image"
+    data-image-full="https://sergioportfolio.blob.core.windows.net/portfolioimages/Tabulate Error.jpeg"/>
 
 Due to the fact that we were working remotely, we decided to take an Agile approach to improve productivity. One hurdle we ran into, was about our devices. He was on Windows 10, and I was on MacOS. This meant that our default scroll bars were different, and some text rendering was slightly different was well. So I would make changes to the UI and on my end, it looked fine, but on his end it looked slightly different. 
 
@@ -34,4 +36,6 @@ Working on this project was exciting and fun in the short time span that we had.
         display: block;
         margin-left: auto;
         margin-right: auto;
-    "/>
+    "
+    class="ll-image"
+    data-image-full="https://sergioportfolio.blob.core.windows.net/portfolioimages/tabulatedemo.gif"/>

@@ -9,8 +9,27 @@ body {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d3d3d3;
+  background-color: #0D213C;
+  color: #ffffff
 }
+
+// .ll-image {
+// 	display: block;
+// 	background: #fff center center no-repeat;
+// 	background-size: cover;
+// 	filter: blur(3px); /* blur the lowres image */
+// }
+
+// .ll-image > img {
+// 	display: block;
+// 	width: 100%;
+// 	opacity: 0; /* visually hide the img element */
+// }
+
+// .is-loaded {
+// 	filter: none; /* remove the blur on fullres image */
+// 	transition: filter 1s;
+// }
 
 @media only screen and (max-width: 480px) {
   html {

@@ -1,11 +1,11 @@
 .nav {
     height: 64px;
-    background-color: #d3d3d3;
+    background-color: #0D213C;
     align-items: center;
     padding: 0px;
     margin: 0px;
     z-index: 1;
-    color: black;
+    color: white;
     overflow: hidden;
     width: 100%;
     position: fixed;
@@ -19,14 +19,14 @@ li {
     font-size: 1.1em;
     display: inline-flex;
     padding-right: 15px;
-    color: black;
+    color: white;
     opacity: 1;
     transition: transform 0.2s ease-in;
 }
 
-li:hover {
-    transform: scale(1.1);
-}
+// li:hover {
+//     transform: scale(1.1);
+// }
 
 li a {
     list-style-type: none;
@@ -35,12 +35,12 @@ li a {
 }
 
 a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:active {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ a:active {
     transition: transform 0.2s ease-in;
 }
 
-.logo:hover {
-    transform: scale(1.18);
-}
+// .logo:hover {
+//     transform: scale(1.18);
+// }
 
