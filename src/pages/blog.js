@@ -8,7 +8,7 @@ const BlogPage = ({data}) => (
     <div className="blog-page">
             <h1>Blog</h1>
             {data.allMarkdownRemark.edges.map(post => (
-                <div key={post.node.id}>
+                <div key={post.node.id} className="post">
                     <h3>{post.node.frontmatter.title}</h3>
                     <small> posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
                     <br/>
