@@ -10,7 +10,7 @@ import mail from "../icons/Mail.svg"
 import resume from "../icons/resume.svg"
 
 import ReactGA from "react-ga"
-ReactGA.initialize("UA-000000-01")
+ReactGA.initialize("UA-170070968-1")
 ReactGA.pageview(window.location.pathname + window.location.search)
 
 const IndexPage = () => (
